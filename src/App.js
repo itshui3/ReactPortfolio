@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//Styles
+import { Jumbotron, ListGroup, ListGroupItem } from 'reactstrap'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Jumbotron className=''>
+        <h1>Hi, I'm Hui.<br></br> I build static websites in JS/CSS/HTML with the React library</h1>
+
+        <ListGroup>
+          <ListGroupItem>
+            <a href='https://react-todo-zeta-wheat.now.sh/'>React Todo App</a>
+            <a href=''></a>
+          </ListGroupItem>
+        </ListGroup>
+
+      </Jumbotron>
     </div>
   );
 }
