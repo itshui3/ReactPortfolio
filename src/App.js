@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Jumbotron className=''>
-        <h1>Hi, I'm Hui.<br></br> I build static websites in JS/CSS/HTML with the React library</h1>
+        <h1>Hi, I'm Hui.<br></br> I build static websites[and apps] in JS/CSS/HTML with the React library</h1>
 
         <ListGroup>
           <ListGroupItem>
